@@ -1,0 +1,10 @@
+# Caravel user project includes
+-v $(USER_PROJECT_VERILOG)/rtl/user_project_wrapper.v	     
+-v $(USER_PROJECT_VERILOG)/rtl/clock_divider.v    
+-v $(USER_PROJECT_VERILOG)/rtl/game_engine.v    
+-v $(USER_PROJECT_VERILOG)/rtl/hvsync.v      
+-v $(USER_PROJECT_VERILOG)/rtl/i2c.v   
+-v $(USER_PROJECT_VERILOG)/rtl/vl53l0x.v    
+-v $(USER_PROJECT_VERILOG)/rtl/pong.v
+
+ 
