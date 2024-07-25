@@ -103,7 +103,7 @@ pong pong (
     .green      (io_out[18:15]),
     .blue       (io_out[22:19]),
 
-    .io_oeb     (io_oeb[22:9]),
+    .io_oeb     (io_oeb[22:9])
     
 );
 
