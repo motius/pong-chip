@@ -67,7 +67,7 @@ module i2c_test_tb;
 
 	initial begin
 		$dumpfile("i2c_test.vcd");
-		$dumpvars(0, i2c_test);
+		$dumpvars(0, i2c_test_tb);
 
 		// Repeat cycles of 1000 clock edges as needed to complete testbench
 		repeat (50) begin
