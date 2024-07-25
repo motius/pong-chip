@@ -74,13 +74,6 @@ module i2c_test_tb;
 			repeat (1000) @(posedge clock);
 			// $display("+1000 cycles");
 		end
-		$display("%c[1;31m",27);
-		`ifdef GL
-			$display ("Monitor: Timeout, Test Mega-Project IO Ports (GL) Failed");
-		`else
-			$display ("Monitor: Timeout, Test Mega-Project IO Ports (RTL) Failed");
-		`endif
-		$display("%c[0m",27);
 		$finish;
 	end
 
