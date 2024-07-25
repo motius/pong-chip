@@ -66,7 +66,7 @@ module i2c_test_tb;
 	end
 
 	initial begin
-		$dumpfile("test_pong.vcd");
+		$dumpfile("i2c_test.vcd");
 		$dumpvars(0, test_pong_tb);
 
 		// Repeat cycles of 1000 clock edges as needed to complete testbench
@@ -155,7 +155,7 @@ module i2c_test_tb;
 	);
 
 	spiflash #(
-		.FILENAME("test_pong.hex")
+		.FILENAME("i2c_test.hex")
 	) spiflash (
 		.csb(flash_csb),
 		.clk(flash_clk),
